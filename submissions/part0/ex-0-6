@@ -1,0 +1,19 @@
+title Exercise 0.6
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over browser:
+browser on form submit starts executing js-code that handles 
+the form submit event, sends
+data as JSON-data in the body of the POST-request,
+adds a new note to the note list and
+rerenders the note list on the page
+end note
+
+server-->browser: HTTP-code 201; body: {"message":"note created"}
+
+note over server:
+server reponds with status code 201 Created
+sent back a new resource in the body of the message
+end note
+
