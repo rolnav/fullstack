@@ -1,0 +1,38 @@
+html {
+	font-size: 18px;
+	font-family: 'ROBOTO', sans-serif;
+	background-color: blue;
+}
+
+#linha:hover {
+   color: red;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+
+p {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;	
+	background-color: yellow;
+	padding: 10px 40px 40px 10px;
+	border: 35px solid #FF6347;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
